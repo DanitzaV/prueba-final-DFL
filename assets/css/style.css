@@ -2,11 +2,11 @@
     scroll-behavior: smooth;
 }*/
 
-body{
+body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.navbar h1{
+.navbar h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 900;
 }
@@ -26,7 +26,7 @@ body{
     position: relative;
 }
 
-.perfil h1{
+.perfil h1 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -36,7 +36,7 @@ body{
     font-size: 2rem;
 }
 
-.perfil h1 span{
+.perfil h1 span {
     font-size: 3rem;
     font-weight: 900;
 }
@@ -48,7 +48,6 @@ h2 {
     color: #343a40;
 }
 
-
 hr {
     border-top: 2px solid white;
     width: 37%;
@@ -59,10 +58,9 @@ hr {
     width: 100px;
 }
 
-.ultimos-proyectos{
+.ultimos-proyectos {
     background-color: #20bece;
 }
-
 
 .black-line {
     border-top: 2px solid #343a40;
@@ -73,7 +71,8 @@ ul {
     list-style: none;
 }
 
-ul li {
+.footer ul li:nth-child(1), .footer ul li:nth-child(2),
+.footer ul li:nth-child(3) {
     margin-right: 1rem;
 }
 
@@ -83,4 +82,19 @@ ul li {
 
 .footer {
     justify-content: space-evenly;
+}
+
+.footer a {
+    color: white;
+}
+
+@media (max-width: 40rem) {
+    .footer {
+        display: block !important;
+    }
+    .footer ul {
+        justify-content: center;
+        padding: 0;
+        margin-top: 1rem;
+    }
 }
